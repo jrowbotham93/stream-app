@@ -1,0 +1,7 @@
+
+npm init 
+npm install --save npm install -g json-server
+
+write a new script to run on relevant server
+ "scripts": {
+    "start": "json-server -p 3001 -w db.json" 
